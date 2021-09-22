@@ -23,8 +23,6 @@
       "./src/@types"
     ]
   },
-  "include": [
-    "src",
-    "./node_modules/@gem-mine/cli-plugin-typescript/@types"
-  ]
+  "include": ["src", "./node_modules/@gem-mine/cli-plugin-typescript/@types"],
+  "compileOnSave": true
 }

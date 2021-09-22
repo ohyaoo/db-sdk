@@ -1,10 +1,5 @@
-import './demo/es5'
-import './demo/es6'
-import './demo/es7'
-import './demo/es8'
-import './demo/es9'
-import './demo/es10'
+import { db, default as createDB } from "./createDB";
+import createStore from "./createStore";
+import createTransaction from "./createTransaction";
 
-export default function demo(): void {
-  console.log('demo')
-}
+export { db, createDB, createStore, createTransaction };
